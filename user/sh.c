@@ -173,6 +173,7 @@ main(void)
         runcmd(parsecmd(cmd));
       wait(0);
     }
+    printf("Amount of free memory: %d\n", freemem());
   }
   exit(0);
 }
